@@ -4,9 +4,9 @@
   "description": "**BrightView** é uma plataforma inspirada no Pinterest e na rede social BlueSky, dedicada ao compartilhamento de imagens e experiências da vida universitária na **UTFPR**. O foco é permitir que estudantes, professores e a comunidade acadêmica compartilhem paisagens e momentos únicos do ambiente universitário, promovendo uma interação visual e uma conexão com a vida no campus.",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon --exec sucrase-node src/index.ts", 
-    "build": "tsc",                                    
-    "start": "node dist/index.js",                    
+    "dev": "nodemon --exec sucrase-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,9 +20,9 @@
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.9.0",
+    "nodemon": "^3.1.7",
     "sucrase": "^3.35.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.3",
-    "nodemon": "^2.0.22"                               
+    "typescript": "^5.6.3"
   }
 }
